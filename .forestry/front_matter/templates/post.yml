@@ -8,11 +8,11 @@ fields:
   default: post
   hidden: true
 - type: text
-  name: title
-  label: title
-- type: text
   name: author
   label: author
+- type: text
+  name: title
+  label: title
 - name: categories
   type: tag_list
   default: []
@@ -20,5 +20,15 @@ fields:
 - type: file
   name: image
   label: image
+- name: number
+  type: number
+  label: Number
+  description: "<strong>12345</strong>"
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 pages:
 - _posts/2019-01-18-customer-service.md
