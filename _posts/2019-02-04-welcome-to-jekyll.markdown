@@ -3,6 +3,7 @@ layout: post
 title: Welcome to Jekyll Demo
 categories:
 - Jekyll
+- web
 image: assets/images/demo1.jpg
 author: demo
 
